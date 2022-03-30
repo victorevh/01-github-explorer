@@ -26,3 +26,14 @@
 * `@babel/preset-react`: permite reconhecer os arquivos react
 
 * yarn babel src/index.jsx --out-file dist/bundle.js pega os arquivos de index.js e converte para a dist em bundle.js
+
+<h3>Configurando o webpack</h3>
+
+<a href="https://webpack.js.org">Site WebPack</a>
+
+* yarn add webpack webpack-cli -D
+
+* yarn add babel-loader -D
+* `@babel-loader`: é a integração entre o webpacker e o babel loader
+
+* yarn webpack 
