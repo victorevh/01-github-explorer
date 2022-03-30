@@ -37,3 +37,5 @@
 * `@babel-loader`: é a integração entre o webpacker e o babel loader
 
 * yarn webpack 
+
+* yarn add html-webpack-plugin -D
