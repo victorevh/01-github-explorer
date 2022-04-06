@@ -43,3 +43,9 @@
 * yarn add webpack-dev-server -D (Automatiza as alterações do arquivo).
 
 * yarn webpack serve (executa a aplicação em localhost)
+
+<h1>Configurando Sourcemap</h1>
+
+* Sourcemap serve para que possamos entender possiveis erros mesmo com a conversão do babel
+
+* Adicionar devtool: 'eval-source-map', no module.exports in webpackconfig
