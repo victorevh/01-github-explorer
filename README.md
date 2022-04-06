@@ -49,3 +49,13 @@
 * Sourcemap serve para que possamos entender possiveis erros mesmo com a conversão do babel
 
 * Adicionar devtool: 'eval-source-map', no module.exports in webpackconfig
+
+<h1> Diferenciando ambiente de produção de homologação </h1>
+
+* no linux você pode utilizar NODE_ENV=production yarn webpack para definir as variaveis ambiente
+
+* no windows yarn add cross-env -D
+
+* yarn dev para executar aplicação no ambiente de desenvolvimento
+
+* yarn build para executar o projeto no ambiente de produção
