@@ -27,7 +27,7 @@
 
 * yarn babel src/index.jsx --out-file dist/bundle.js pega os arquivos de index.js e converte para a dist em bundle.js
 
-<h3>Configurando o webpack</h3>
+<h1>Configurando o webpack</h1>
 
 <a href="https://webpack.js.org">Site WebPack</a>
 
@@ -39,3 +39,7 @@
 * yarn webpack 
 
 * yarn add html-webpack-plugin -D
+
+* yarn add webpack-dev-server -D (Automatiza as alterações do arquivo).
+
+* yarn webpack serve (executa a aplicação em localhost)
