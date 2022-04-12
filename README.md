@@ -59,3 +59,7 @@
 * yarn dev para executar aplicação no ambiente de desenvolvimento
 
 * yarn build para executar o projeto no ambiente de produção
+
+<h1>Importando arquivos CSS</h1>
+
+* yarn add style-loader css-loader -D
