@@ -64,7 +64,7 @@
 
 * yarn add style-loader css-loader -D
 
-<h2>Utilizando Sass CSS</h2>
+<h3>Utilizando Sass CSS</h3>
 
 * yarn add sass-loader -D
 
