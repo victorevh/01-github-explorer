@@ -63,3 +63,9 @@
 <h1>Importando arquivos CSS</h1>
 
 * yarn add style-loader css-loader -D
+
+<h2>Utilizando Sass CSS</h2>
+
+* yarn add sass-loader -D
+
+* yarn add node-sass -D
