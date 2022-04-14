@@ -69,3 +69,7 @@
 * yarn add sass-loader -D
 
 * yarn add node-sass -D
+
+<h1>React Fast Refresh</h1>
+
+<p>Quando rodamos nossa aplicação com o webpack dev server toda vez que atualizamos o código os estados da aplicação são resetados, como por exemplo um carrinho de compras da aplicação é zerado após realizar alguma alteração no código, para evitar isso utilizaremos o React Fast Refresh</p>
