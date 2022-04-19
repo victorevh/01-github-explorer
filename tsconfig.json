@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {                               
+    "lib": ["dom", "dom.iterable", "esnext"],     // Adiciona funcionalidades para a DOM     
+    "jsx": "react-jsx",                           // Estamos utilizando o jsx (React)
+    "moduleResolution": "node",                  
+    "resolveJsonModule": true,                    // Adiciona possibilidade de importar arquivos JSON
+    "allowJs": true,                              // Permite arquivos JavaScript e TypeScript na aplicação
+    "noEmit": true,                               // Caso executamos o build da aplicação não emitir erro
+    "isolatedModules": true,                        
+    "allowSyntheticDefaultImports": true,           
+    "esModuleInterop": true,                        
+    "forceConsistentCasingInFileNames": true,          
+    "strict": true,                               // Modo de lidar com erros no JS
+    "skipLibCheck": true                               
+  },
+  "include": ["src"]                              // Onde o codigo da aplicação está (pasta SRC)
+}

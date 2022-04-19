@@ -75,3 +75,11 @@
 <p>Quando rodamos nossa aplicação com o webpack dev server toda vez que atualizamos o código os estados da aplicação são resetados, como por exemplo um carrinho de compras da aplicação é zerado após realizar alguma alteração no código, para evitar isso utilizaremos o React Fast Refresh</p>
 
 * yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+
+<h1>Instalando TypeScript</h1>
+
+* yarn add typescript -D
+* yarn tsc --init
+* yarn add @babel/preset-typescript -D 
+* yarn add @types/react-dom -D
+* yarn add @types/react -D
