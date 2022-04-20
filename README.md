@@ -62,13 +62,13 @@
 
 <h1>Importando arquivos CSS</h1>
 
-* yarn add style-loader css-loader -D
+* `yarn add style-loader css-loader -D`
 
 <h3>Utilizando Sass CSS</h3>
 
-* yarn add sass-loader -D
+* `yarn add sass-loader -D`
 
-* yarn add node-sass -D
+* `yarn add node-sass -D`
 
 <h1>React Fast Refresh</h1>
 
