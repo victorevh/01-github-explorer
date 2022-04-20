@@ -78,8 +78,8 @@
 
 <h1>Instalando TypeScript</h1>
 
-* yarn add typescript -D
-* yarn tsc --init
-* yarn add @babel/preset-typescript -D 
-* yarn add @types/react-dom -D
-* yarn add @types/react -D
+* `yarn add typescript -D`
+* `yarn tsc --init`
+* `yarn add @babel/preset-typescript -D `
+* `yarn add @types/react-dom -D`
+* `yarn add @types/react -D`
