@@ -4,7 +4,9 @@ section.repository-list {
 
 
     h1 {
-        margin-bottom: 16px;
+        margin: 50px 0px;
+        display: flex;
+        justify-content: center;
     }
 
     ul {
@@ -21,7 +23,8 @@ section.repository-list {
 
             li {
                 
-                border: solid black 0.5px;
+                border: solid var(--border-primary) 0.5px;
+                border-radius: 0.5rem;
                 margin: 20px;
 
                     div {
@@ -35,7 +38,7 @@ section.repository-list {
             
                         p {
                             font-size: 14px;
-                            color: #444;
+                            color: var(--color-text);
                             margin: 8px;
                             height: 60%;
                         }
@@ -47,7 +50,7 @@ section.repository-list {
                             a {
                                 display: inline-block;
                                 text-decoration: none;
-                                color: #8257e6;
+                                color: black;
                             }
                         }
 

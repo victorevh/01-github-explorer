@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+    --bg:#333333;
+    --border-primary: #cfcfd8;
+    --color-headings: #B5B5B5;
+    --color-text: #B5B5B5;
+}
+
 body {
     font: 16px "Helvetica Neue", Arial, sans-serif;
-    color: #121214;
+    color: var(--color-headings);
     justify-content: center;
+    background-color: var(--bg);
 }
 
