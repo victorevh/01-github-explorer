@@ -1,8 +1,10 @@
+import '../styles/profile.scss'
+
 export function ProfileItem () {
     return (
-        <div>
+        <div className="profile">
+            <img src="" alt="" />
             <h3>Victor Oliveira</h3>
-            <img src="./assets/profile.webp" alt="" />
         </div>
     );
 }
