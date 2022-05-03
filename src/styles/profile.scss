@@ -1,9 +1,32 @@
 div.profile {
-    margin: 50px 100px;
-    img {
-        margin: 20px 0px;
-        padding: 10%;
-        border: white 0.5px solid;
-        border-radius: 100%;
+    margin: 50px 160px;
+    display: flex;
+
+    div.divProfile {
+        margin: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .imgProfile {
+
+            margin: 20px 0px;
+            width: 250px;
+            height: 250px;
+            border: white 0.5px solid;
+            border-radius: 100%;
+        }
+
+    }
+
+    div.About {
+        margin: 0px 20px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3 {
+            margin: 20px 0px;
+        }
     }
 }
