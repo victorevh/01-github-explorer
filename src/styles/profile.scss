@@ -1,9 +1,8 @@
 div.profile {
-    margin: 50px 160px;
-    display: flex;
-
+    display: grid;
+    
     div.divProfile {
-        margin: 0px 20px;
+        margin: 0px 10%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -18,10 +17,10 @@ div.profile {
             border-radius: 100%;
         }
 
-    }
+    }   
 
     div.About {
-        margin: 0px 20px; 
+        margin: 0px 10%; 
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -30,3 +29,4 @@ div.profile {
         }
     }
 }
+
