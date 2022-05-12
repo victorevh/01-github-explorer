@@ -9,6 +9,7 @@ interface Repository {
     description: string;
     html_url: string;
     language: string;
+    pushed_at: string;
 }
 
 export function RepositoryList() {
