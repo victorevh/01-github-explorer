@@ -5,12 +5,12 @@ interface DateItemProps {
         html_url: string;
         language: string;
         pushed_at: string;
-        Date: string;
+        dateYear: string;
     }
    
 }
 
-export function Date (props: DateItemProps) {
-    const year= props.repository.pushed_at.slice(0,4);
-    return year;
+export function dateYear (props: DateItemProps) {
+    const year = props.repository.pushed_at.slice(0,4);
+    return year
 };
