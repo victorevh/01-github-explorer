@@ -1,4 +1,3 @@
-import { dateYear } from "./dateYear";
 
 interface RepositoryItemProps {
     repository: {
@@ -7,7 +6,6 @@ interface RepositoryItemProps {
         html_url: string;
         language: string;
         pushed_at: string;
-        dateYear: string;
     }
 }
 
@@ -20,7 +18,6 @@ export function RepositoryItem(props: RepositoryItemProps) {
                 <p>Atualizado em {props.repository?.pushed_at.slice(0,10)}</p>
                 
                 <p>{props.repository?.description ?? 'No description'}</p>
-                <p>{props.repository?.dateYear}</p>
                 
                 
                 <p> ◉ {props.repository?.language ?? 'Markdown'}</p>
@@ -33,4 +30,4 @@ export function RepositoryItem(props: RepositoryItemProps) {
             </div>
         </li>
     );
-}
+}   

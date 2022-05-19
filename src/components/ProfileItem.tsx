@@ -1,4 +1,5 @@
 import '../styles/profile.scss'
+import imgProfile from '../assets/profile.webp'
 
 export function ProfileItem () {
     return (
@@ -6,7 +7,7 @@ export function ProfileItem () {
             <div className="divProfile">
                 <img
                     className="imgProfile"
-                    src=""
+                    src={imgProfile}
                     alt=""
                     
                 />
