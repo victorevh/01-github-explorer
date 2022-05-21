@@ -8,8 +8,7 @@ export function ProfileItem () {
                 <img
                     className="imgProfile"
                     src={imgProfile}
-                    alt=""
-                    
+                    alt="Homem pardo sorrindo"
                 />
                 <h3>Victor Oliveira</h3>
             </div>
