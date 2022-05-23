@@ -1,4 +1,5 @@
 import imgCode from '../assets/code.jpg'
+import { format, compareAsc } from 'date-fns'
 
 interface RepositoryItemProps {
     repository: {
@@ -22,7 +23,7 @@ export function RepositoryItem(props: RepositoryItemProps) {
                     alt="Imagem de código"
                  />
 
-                <p>Atualizado em {props.repository?.pushed_at.slice(0,10)}</p>
+                <p>Atualizado em { format(props.repository?.pushed_at(2014,1,11), 'MM/dd/yyyy')}</p>
                 
 
                 <p>{props.repository?.description ?? 'No description'}</p>
