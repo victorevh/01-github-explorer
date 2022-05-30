@@ -25,7 +25,7 @@ export function RepositoryItem(props: RepositoryItemProps) {
 
                 <p>Atualizado em {props.repository?.pushed_at.slice(0,10)}</p>
                 
-
+                
                 <p>{props.repository?.description ?? 'No description'}</p>
                 
                 
