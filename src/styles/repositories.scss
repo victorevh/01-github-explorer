@@ -19,7 +19,7 @@ section.repository-list {
         list-style-type: none;
 
             li {
-                
+                background-color: var(--bg-secondary);
                 border: solid var(--border-primary) 0.5px;
                 border-radius: 0.5rem;
                 margin: 40px;
