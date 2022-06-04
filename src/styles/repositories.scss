@@ -33,11 +33,6 @@ section.repository-list {
                         
                         }
 
-                        img {
-                            width: 100%;
-                            height: 30%;
-                        }
-            
                         p {
                             font-size: 14px;
                             color: var(--color-text);
@@ -45,6 +40,11 @@ section.repository-list {
                             height: 15%;
                         }
     
+                        img {
+                            width: 100%;
+                            height: 30%;
+                        }
+            
                         button {
                             
                             margin: 8px;

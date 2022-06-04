@@ -16,15 +16,16 @@ export function RepositoryItem(props: RepositoryItemProps) {
     return (
         <li>
             <div>
+        
                 <h3>{props.repository?.name ?? 'Default'}</h3>
+
+                <p>Atualizado em {props.repository?.pushed_at.slice(0,10)}</p>
 
                 <img
                     src={imgCode}
                     alt="Imagem de código"
                  />
 
-                <p>Atualizado em {props.repository?.pushed_at.slice(0,10)}</p>
-                
                 
                 <p>{props.repository?.description ?? 'No description'}</p>
                 
