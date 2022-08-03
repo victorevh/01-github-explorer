@@ -19,7 +19,8 @@ export function RepositoryItem(props: RepositoryItemProps) {
         
                 <h3>{props.repository?.name ?? 'Default'}</h3>
 
-                <p>Atualizado em {props.repository?.pushed_at.slice(0,10)}</p>
+                <p>Atualizado em {new Intl.DateTimeFormat('pt-BR').format(new Date(props.repository?.pushed_at))}
+                </p>
 
                 <img
                     src={imgCode}
