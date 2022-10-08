@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
     background: white;
     display: grid;
@@ -25,13 +26,19 @@ export const DivProfile = styled.div`
         justify-content: center;
         align-items: center;
         img {
-            margin: 0px 0px;
-            width: 250px;
-            height: 250px;
+            width: 18%;
             border: rgba(3, 0, 0, 0.63) 2px solid;
             border-radius: 100%;
-        }
+        }   
         h3 {
             margin-bottom: 8px;
         }
+`
+export const Foot = styled.div`
+    padding: 5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    img {
+        width: 55%;
+    }
 `

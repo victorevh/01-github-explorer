@@ -7,7 +7,7 @@ export function Header () {
             <Content>
                 <img alt="" />
                 <button type="button">
-                    Fale Comigo
+                    Say Hello
                 </button>
             </Content>
         </Container>

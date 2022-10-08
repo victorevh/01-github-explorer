@@ -1,5 +1,4 @@
 import imgCode from '../assets/code.jpg'
-import { format, compareAsc } from 'date-fns'
 
 interface RepositoryItemProps {
     repository: {
