@@ -1,6 +1,6 @@
 import imgProfile from '../../assets/profile.webp'
 import imgDevices from '../../assets/hero-devices.svg'
-import { Container, Content, DivProfile, Foot} from './styles'
+import { Container, Content, DivProfile, Foot, About} from './styles'
 
 export function Profile() {
     return (
@@ -19,8 +19,19 @@ export function Profile() {
             <Foot>
                 <img 
                     src={imgDevices}
-                    alt="Dispositivos" />
+                    alt="Dispositivos"
+                 />
             </Foot>
+            <About>
+                <section>
+                    <h1>Hi, I'm Victor. Nice to meet you.</h1>
+                    <span>Working from Brazil</span>
+                    <p>About me</p>
+                </section>
+                <div>
+                    <img src="" alt="" />
+                </div>
+            </About>
         </Container>
     )
 }

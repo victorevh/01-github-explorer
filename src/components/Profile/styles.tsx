@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
     background: white;
     display: grid;
-    padding: 2rem;
 `
 export const Content = styled.div`
         margin: 5rem 0; 
@@ -35,10 +34,19 @@ export const DivProfile = styled.div`
         }
 `
 export const Foot = styled.div`
-    padding: 5rem 1.5rem;
+    padding: 5rem 1.5rem 0rem;
     display: flex;
     justify-content: center;
     img {
         width: 55%;
+    }
+`
+
+export const About = styled.div`
+    display: flex;
+    padding: 0em 0em 8em 0em;
+    background: #7510F7;;
+    h1, p, span {
+        color: white;
     }
 `
