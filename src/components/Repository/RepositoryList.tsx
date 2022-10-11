@@ -1,8 +1,7 @@
 // Hook React
 import {useState, useEffect } from 'react';
 import { RepositoryItem } from "./RepositoryItem";
-
-import '../styles/repositories.scss';
+import { Container } from "./styles";
 
 interface Repository {
     name: string;
@@ -23,14 +22,16 @@ export function RepositoryList() {
     }, []);
 
     return (
-        <section className="repository-list">
-            <h1>List of Repositories</h1>
+        <Container>
+            <section>
+                <h1>List of Repositories</h1>
 
-            <ul>
-                {repositories.map(repository => {
-                    return <RepositoryItem key={repository.name} repository={repository} />
-                })}
-            </ul>
-        </section>
+                <ul>
+                    {repositories.map(repository => {
+                        return <RepositoryItem key={repository.name} repository={repository} />
+                    })}
+                </ul>
+            </section>
+        </Container>
     );
 }

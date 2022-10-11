@@ -1,8 +1,7 @@
 import { Header } from './components/Header'
 import { Profile } from './components/Profile';
-import { RepositoryList } from './components/RepositoryList';
-
-import './styles/global.scss';
+import { RepositoryList } from './components/Repository/RepositoryList';
+import { GlobalStyle } from './styles/global';
 
 export function App(){
     return (
@@ -10,6 +9,7 @@ export function App(){
             <Header />
             <Profile />
             <RepositoryList />
+            <GlobalStyle />
         </>
     )
 }

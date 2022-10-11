@@ -1,8 +1,6 @@
-section.repository-list {
-    margin: 40px;
-    
+import styled from "styled-components";
 
-
+export const Container = styled.div`
     h1 {
         margin: 50px 0px;
         display: flex;
@@ -60,5 +58,4 @@ section.repository-list {
 
             }
     }
-    
-}
+`
