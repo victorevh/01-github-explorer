@@ -1,14 +1,24 @@
 
-import { Container, Content } from './styles'
+import { Container, Content , Bttn , Link } from './styles'
 
 export function Header () {
     return (
         <Container>
             <Content>
                 <img alt="" />
-                <button type="button">
-                    Say Hello
-                </button>
+                <Bttn>
+                    <div>
+                        <a
+                             href="https://github.com/victorevh"
+                             target="_Blank"
+                        >
+                            My portfolio
+                        </a>
+                    </div>
+                    <button type="button">
+                        Say Hello
+                    </button>
+                </Bttn>
             </Content>
         </Container>
     );
