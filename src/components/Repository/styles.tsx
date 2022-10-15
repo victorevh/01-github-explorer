@@ -23,8 +23,8 @@ export const Container = styled.div`
                 margin: 40px;
 
                     div {
-                        width: 300px;
-                        height: 300px;
+                        width: 18.15rem;
+                        height: 18.15rem;
 
                         h3 {
                             margin: 8px;
@@ -33,7 +33,7 @@ export const Container = styled.div`
 
                         p {
                             font-size: 14px;
-                            color: var(--color-text);
+                            color: var(--color-textCard);
                             margin: 0px 8px;
                             height: 15%;
                         }
