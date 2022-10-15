@@ -23,15 +23,15 @@ export const Bttn = styled.div`
         background: none;
         text-decoration: none;
         padding: 0 2rem;
-        color: black;
+        color: var(--text-body);
     }
 
     button{
         cursor: pointer;
         background: none ;
         font-size: 1rem;
-        color: #7510F7;
-        border-color: #7510F7;
+        color: var(--eletric-violet);
+        border-color: var(--eletric-violet);
         border-width: 2px;
         padding: 0 2rem;
         border-radius: 10rem;

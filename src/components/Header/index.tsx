@@ -1,7 +1,11 @@
-
+import Modal from 'react-modal';
 import { Container, Content , Bttn } from './styles'
 
-export function Header () {
+interface HeaderProps {
+    onOpenNewContactModal: () => void;
+}
+
+export function Header ({onOpenNewContactModal}: HeaderProps) {
     return (
         <Container>
             <Content>
@@ -9,13 +13,13 @@ export function Header () {
                 <Bttn>
                     <div>
                         <a
-                             href="https://github.com/victorevh"
+                             href="https://Contacthub.com/victorevh"
                              target="_Blank"
                         >
                             My portfolio
                         </a>
                     </div>
-                    <button type="button">
+                    <button type="button" onClick={onOpenNewContactModal}>
                         Say Hello
                     </button>
                 </Bttn>
