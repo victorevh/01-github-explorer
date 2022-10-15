@@ -1,5 +1,5 @@
 
-import { Container, Content , Bttn , Link } from './styles'
+import { Container, Content , Bttn } from './styles'
 
 export function Header () {
     return (
