@@ -13,7 +13,7 @@ export function Header ({onOpenNewContactModal}: HeaderProps) {
                 <Bttn>
                     <div>
                         <a
-                             href="https://Contacthub.com/victorevh"
+                             href="https://github.com/victorevh"
                              target="_Blank"
                         >
                             My portfolio
