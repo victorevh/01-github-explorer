@@ -1,82 +1,77 @@
-<h1>Instalando o React na aplicação</h1>
+# Bem vindo ao Github Explorer
+
+## Proposta
+
+É um projeto que tem como finalidade a busca de informações sobre usuários cadastrados no Github, para poder ver seus detalhes.
+
+## Instalando o React na aplicação
+
+**Você deve ter o [NodeJS](https://nodejs.org/) (>= 10.13.0) e [Yarn](https://yarnpkg.com/) previamente instalados, então:**
 
 * yarn init -y
 * yarn add react
 * yarn add react-dom
 
-<h1> Estrutura de pastas aplicação </h1>
+## Estrutura de pastas aplicação
 
 * `src`: onde fica todo o código JS criado
 * `public`: onde fica os assets, itens públicos, favicons, arquivos robots (qualquer arquivo que precise ser acessado externamente)
 
-<h1>Configurar a biblioteca babel</h1>
+## Configurar a biblioteca babel
 
-<p>O Babel converte o código para que os navegadores mais mordenos reconheçam o código</p>
+O Babel converte o código para que os navegadores mais mordenos reconheçam o código, e você consegue baixar através do [site oficial do Babel](https://www.babeljs.io).
 
-<a href="https://www.babeljs.io">Site Babel</a>
-
-<h3>Instalando o Babel</h3>
+### Instalando o Babel
 
 * yarn add @babel/core @babel/cli @babel/preset-env -D
 * yarn add @babel/preset-react -D
 
-* `@babel/cli`: yarn babel -h consigo ver as funções disponiveis pelo babel.
-* `@babel/core`: basicamente 99% das funcionalidades do babel estão ai.
-* `@babel/preset-env`: vai entender qual o ambiente e o que o babel precisa converter para o código.
-* `@babel/preset-react`: permite reconhecer os arquivos react
+* `@babel/cli`: yarn babel -h exibe as funções disponiveis pelo babel;
+* `@babel/core`: armazena cerca de 99% das funcionalidades do babel;
+* `@babel/preset-env`: exibe qual o ambiente e o que o babel precisa converter para o código;
+* `@babel/preset-react`: permite reconhecer os arquivos React;
+* yarn babel src/index.jsx --out-file dist/bundle.js  converte os arquivos de index.js para a dist em bundle.js.
 
-* yarn babel src/index.jsx --out-file dist/bundle.js pega os arquivos de index.js e converte para a dist em bundle.js
+## Configurando o webpack
 
-<h1>Configurando o webpack</h1>
-
-<a href="https://webpack.js.org">Site WebPack</a>
+Você consegue baixar através do [site oficial do WebPack](https://webpack.js.org).
 
 * yarn add webpack webpack-cli -D
-
 * yarn add babel-loader -D
-* `@babel-loader`: é a integração entre o webpacker e o babel loader
-
+* `@babel-loader` (integração entre o webpacker e o babel loader)
 * yarn webpack 
-
 * yarn add html-webpack-plugin -D
-
-* yarn add webpack-dev-server -D (Automatiza as alterações do arquivo).
-
+* yarn add webpack-dev-server -D (automatiza as alterações do arquivo)
 * yarn webpack serve (executa a aplicação em localhost)
 
-<h1>Configurando Sourcemap</h1>
+## Configurando Sourcemap
 
-* Sourcemap serve para que possamos entender possiveis erros mesmo com a conversão do babel
+* Sourcemap serve para que possamos entender possiveis erros mesmo com a conversão do babel;
+* Adicionar devtool: 'eval-source-map', no module.exports in webpackconfig.
 
-* Adicionar devtool: 'eval-source-map', no module.exports in webpackconfig
+## Diferenciando ambiente de produção de homologação 
 
-<h1> Diferenciando ambiente de produção de homologação </h1>
+* no linux você pode utilizar NODE_ENV=production yarn webpack para definir as variaveis ambiente;
+* no windows yarn add cross-env -D;
+* yarn dev para executar aplicação no ambiente de desenvolvimento;
+* yarn build para executar o projeto no ambiente de produção.
 
-* no linux você pode utilizar NODE_ENV=production yarn webpack para definir as variaveis ambiente
-
-* no windows yarn add cross-env -D
-
-* yarn dev para executar aplicação no ambiente de desenvolvimento
-
-* yarn build para executar o projeto no ambiente de produção
-
-<h1>Importando arquivos CSS</h1>
+## Importando arquivos CSS
 
 * `yarn add style-loader css-loader -D`
 
-<h3>Utilizando Sass CSS</h3>
+### Utilizando Sass CSS
 
 * `yarn add sass-loader -D`
-
 * `yarn add node-sass -D`
 
-<h1>React Fast Refresh</h1>
+## React Fast Refresh
 
-<p>Quando rodamos nossa aplicação com o webpack dev server toda vez que atualizamos o código os estados da aplicação são resetados, como por exemplo um carrinho de compras da aplicação é zerado após realizar alguma alteração no código, para evitar isso utilizaremos o React Fast Refresh</p>
+Quando rodamos nossa aplicação com o webpack dev server toda vez que atualizamos o código os estados da aplicação são resetados, como por exemplo um carrinho de compras da aplicação é zerado após realizar alguma alteração no código, para evitar isso utilizaremos o React Fast Refresh.
 
 * yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
 
-<h1>Instalando TypeScript</h1>
+## Instalando TypeScript
 
 * `yarn add typescript -D`
 * `yarn tsc --init`

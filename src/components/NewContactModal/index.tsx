@@ -47,9 +47,7 @@ export function NewContactModal({ isOpen, onRequestClose }: NewContactModalProps
                 <img src={closeImg} alt="Fechar modal" />
             </button>
             
-            <Container
-                onSubmit={handleFormSubmit}
-            >
+            <Container onSubmit={handleFormSubmit}>
             <div>
                 <h2>Say Hello</h2>
                 </div>
@@ -105,11 +103,11 @@ export function NewContactModal({ isOpen, onRequestClose }: NewContactModalProps
                             onChange={handleInputChange}
                         />
                 </label>
-
-                <input
-                    type="submit" 
-                    value="send" 
-                />
+                <button
+                    type="submit"
+                >
+                    Send
+                </button>
             </Container>
         </Modal>
     )
