@@ -44,9 +44,20 @@ export const Foot = styled.div`
 
 export const About = styled.div`
     display: flex;
-    padding: 0em 0em 8em 0em;
-    background: #7510F7;;
-    h1, p, span {
-        color: white;
+    padding: 5rem 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    background: #7510F7;
+    font-family: "europa", sans-serif;
+    line-height: 1.5;
+    section{
+        margin: 2rem 6rem;
+
+        h1, p, span {
+            padding: 0.75rem;
+            
+            color: white;
+        }
     }
+
 `
